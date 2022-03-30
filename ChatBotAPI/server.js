@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, "/public")));
 // Routes
 app.get("/", (req, res) => {
   // send index file
-  res.sendFile(path.join(__dirname, "public/index.html"));
+  res.sendFile(path.join(__dirname, "public/pages/index.html"));
 });
 
 app.get("/api/chatbot", (req, res) => {
