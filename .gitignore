@@ -1,4 +1,5 @@
 node_modules
 ChatBotAPI
+.env
 # Local Netlify folder
 .netlify
