@@ -11,29 +11,104 @@
     <style>
       * {
         box-sizing: border-box;
+        top: 0;
+        left: 0;
         font-family: sans-serif;
+      }
+
+      body {
+        font-family: 'Roboto', sans-serif;
+        color: white;
         background-color: black;
-        color: white;
       }
-      h1 {
-        color: white;
+
+      #title {
+        font-size: 3rem;
+        font-weight: bold;
         text-align: center;
-        font-size: 3em;
-        margin: 0;
-        padding-top: 80px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
       }
-      p {
-        padding-top: 15px;
-        color: white;
+
+      #para {
+        font-size: 1.5rem;
         text-align: center;
-        font-size: 1.5em;
-        margin: 0;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      #users {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      #devs {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      .button {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      .button1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        cursor: pointer;
+      }
+
+      .button2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        cursor: pointer;
+      }
+
+      .devs {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      .dev1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        cursor: pointer;
+      }
+
+      .dev2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        cursor: pointer;
       }
     </style>
   </head>
   <body>
     <h1 id="title">Welcome to the AI Healthcare ChatBot API</h1>
-    <p>
+    <p id="para">
       Your Mental AI Healthcare Chatbot made with the intention to help you
       overcome depression, anxiety, motivate you etc... <br />You can ask me
       anything about your health and I will try to answer you. <br />You can
@@ -64,9 +139,9 @@
 
     <!-- Box with authors -->
     <h1 id="devs">Main Developers</h1>
-    <div class="button1">
+    <div class="devs">
       <a href="https://discord.gg/xK2WzfKwYn">
-        <button class="">
+        <button class="dev1">
           <img
             src="assets/mirza.png"
             alt="DevMirza"
@@ -77,7 +152,7 @@
         </button>
       </a>
       <a href="https://dsc.gg/crazii">
-        <button class="">
+        <button class="dev2">
           <img
             src="assets/baddcision.png"
             alt="Depresso"
