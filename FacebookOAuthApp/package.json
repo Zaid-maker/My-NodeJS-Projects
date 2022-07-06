@@ -14,7 +14,7 @@
     "ejs": "^3.1.6",
     "express": "^4.17.3",
     "express-session": "^1.17.2",
-    "passport": "^0.5.2",
+    "passport": "^0.6.0",
     "passport-facebook": "^3.0.0"
   },
   "devDependencies": {
