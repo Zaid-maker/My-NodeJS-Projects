@@ -19,6 +19,6 @@
     "passport-twitter": "^1.0.4"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.21"
   }
 }
